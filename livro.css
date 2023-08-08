@@ -246,11 +246,11 @@ p{
     padding-left: 10px;
 }
 
-.imagem, .detalhes{
-    width: 30%;
-    margin-left: 15% !important;
+.imagem{
+    width: 50%;
+    margin-left: 24% !important;
     box-sizing: border-box;
-    display: inline-block;
+    display: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -261,26 +261,27 @@ p{
 .imagem #star{
     width: 240px;
     margin-left: 30px;
-    background: #e9e6e6;
-    border-radius: 50px;
-    padding: 10px;
-    border: 2px solid #413e4af3;
 }
 
 .imagem #livro{
     margin-left: 50px;
-    width: 380px;
+    width: 600px;
 }
 
 .detalhes{
-    margin-top: 6%;
-    padding-top: 3%;
-    position: absolute;
+    margin-top: 2%;
+    margin-left: 11%;
     text-align: center;
-    height: 350px;
-    width: 350px;
+    min-height: 300px;
+    width: 80%;
     background-color: #e2f7ce;
     border-radius: 10px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
 }
 
 h2{
@@ -289,15 +290,33 @@ h2{
 
 
 .detalhes p, h2{
-    margin-left: 27%;
     background: #ebf8df;
-    width: 150px;
     border-radius: 10px;
+    overflow-wrap:break-word;
+    max-height: auto;
+    min-width: 130px;
+    display: block;
+    text-align: center;
 }
 
 #descricao{
-    height: 150px;
-    width: 200px;
-    margin-left: 20%;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    max-width: 80%;
 }
 
+.adicionais{
+    font-size: 12px;
+    display: flex;
+    width: auto;
+}
+
+.adicionais p{
+    background: #e2f7ce;
+    margin-bottom: 1px;
+}
+
+.adicionais svg{
+    color: #557570;
+}
