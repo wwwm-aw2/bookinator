@@ -213,7 +213,7 @@ p{
 
 .carousel{
     background: #557570;
-    height: 600px;
+    height: 800px;
     border-radius: 10px;
 }
 
@@ -231,13 +231,17 @@ p{
 .card{
     background: #557570 !important; 
     border: none !important;
-    height: 500px !important;
+    height: 700px !important;
 }
 
 .card-body{
     width: 350px;
     border-radius: 10px;
     background: #A2543D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
 }
 
 .card-body svg{
@@ -256,7 +260,7 @@ p{
     background: #D9D9D9;
     color: #557570;
     border-radius: 10px;
-    padding-top: 10px;
+    padding: 10px 10px 0px 10px;
     text-align: center;
 }
 
@@ -326,4 +330,57 @@ button i{
     background: #D9D9D9;
     border-radius: 5px;
     width: 50%;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 100%;
+}
+
+#input, #nome {
+    margin: 0px !important;
+}
+
+#pedra {
+    background-image: url('./img/pedra.jpg');
+}
+
+#calice {
+    background-image: url('./img/calice.jpg');
+}
+
+#ordem {
+    background-image: url('./img/ordem.jpg');
+}
+
+#percy {
+    background-image: url('./img/percy.jpg');
+}
+
+#vento {
+    background-image: url('./img/vento.jpg');
+}
+
+#anos {
+    background-image: url('./img/anos.jpg');
+}
+
+#gatinha {
+    background-image: url('./img/gatinha.jpg');
+}
+
+#espinhos {
+    background-image: url('./img/espinhos.jpg');
+}
+
+#lugar {
+    background-image: url('./img/lugar.jpg');
+}
+
+#sucesso {
+    background-image: url('./img/sucesso.jpg');
 }

@@ -22,7 +22,15 @@
 
     <header class="header" id="header">
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
-        <p>Bookinator</p>
+        <div id="search">
+            <div class="input-group" id="input">
+                <div class="input-group-prepend">
+                <button id="button-addon2" type="submit" class="btn btn-link text-warning"><i class="fa fa-search"></i></button>
+                </div>
+                <input type="search" placeholder="Pesquisar..." aria-describedby="button-addon2" class="form-control border-0 bg-light">
+            </div>
+            <p id="nome">Bookinator</p>
+        </div>
     </header>
 
     <!-- Menu Lateral --> 
@@ -131,17 +139,17 @@
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="pedra">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
                                 <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
-                              </svg>
+                            </svg>
                         </div>
 
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 1, autor 1</p>
+                            <p>Harry Potter e a Pedra Filosofal, J. K. Rowling</p>
                         </div>
 
                     </div>
@@ -150,7 +158,7 @@
 
                     <div class="card">
                         
-                        <div class="card-body">
+                        <div class="card-body" id="calice">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -162,7 +170,7 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 2, autor 2</p>
+                            <p>Harry Potter e o Cálice de Fogo, J. K. Rowling</p>
                         </div>
 
                     </div>
@@ -170,13 +178,56 @@
                     </div>
                 </div>
 
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+
+                    <div class="card ">
+                
+                        <div class="card-body" id="ordem">
+                            <h5 class="card-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                                    <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                                    <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                                  </svg>
+                            </h5>
+                        </div>
+
+                        <img src="/img/star.png">
+
+                        <div class="text">
+                            <p>Harry Potter e a Ordem da Fenix, J. K. Rowling</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                
+                        <div class="card-body" id="percy">
+                            <h5 class="card-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                                    <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                                    <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                                  </svg>
+                            </h5>
+                        </div>
+
+                        <img src="/img/star.png">
+
+                        <div class="text">
+                            <p>Percy Jackson e os Olimpianos, Rick Riordan</p>
+                        </div>
+
+                    </div>
+
+                    </div>
+                </div>
 
                 <div class="carousel-item">
                     <div class="card-wrapper container-sm d-flex  justify-content-around">
 
                     <div class="card ">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="anos">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -188,14 +239,14 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 3, autor 3</p>
+                            <p>Anos Rebeldes, Gilberto Braga</p>
                         </div>
 
                     </div>
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="vento">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -207,51 +258,7 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 4, autor 4</p>
-                        </div>
-
-                    </div>
-
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="card-wrapper container-sm d-flex  justify-content-around">
-
-                    <div class="card ">
-                
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
-                                    <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
-                                    <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
-                                  </svg>
-                            </h5>
-                        </div>
-
-                        <img src="/img/star.png">
-
-                        <div class="text">
-                            <p>Livro 5, autor 5</p>
-                        </div>
-
-                    </div>
-
-                    <div class="card">
-                
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
-                                    <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
-                                    <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
-                                  </svg>
-                            </h5>
-                        </div>
-
-                        <img src="/img/star.png">
-
-                        <div class="text">
-                            <p>Livro 6, autor 6</p>
+                            <p>...E o vento levou, Margaret Mitchell</p>
                         </div>
 
                     </div>
@@ -264,7 +271,7 @@
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="espinhos">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -276,14 +283,14 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 7, autor 7</p>
+                            <p>Corte de espinhos e rosas, Sarah J. Maas</p>
                         </div>
 
                     </div>
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="gatinha">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -295,7 +302,7 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 8, autor 8</p>
+                            <p>A gatinha siamesa chinesa, Amy Tan</p>
                         </div>
 
                     </div>
@@ -308,7 +315,7 @@
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="lugar">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -320,14 +327,14 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 9, autor 9</p>
+                            <p>Lugar nenhum, Neil Gaiman</p>
                         </div>
 
                     </div>
 
                     <div class="card">
                 
-                        <div class="card-body">
+                        <div class="card-body" id="sucesso">
                             <h5 class="card-title">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
                                     <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -339,7 +346,7 @@
                         <img src="/img/star.png">
 
                         <div class="text">
-                            <p>Livro 10, autor 10</p>
+                            <p>A surpreendente ciência do sucesso, Eric Barker</p>
                         </div>
                     </div>
 
@@ -358,15 +365,6 @@
             <span class="visually-hidden">Next</span>
             </button>
         </div>
-        
-        <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <button id="button-addon2" type="submit" class="btn btn-link text-warning"><i class="fa fa-search"></i></button>
-              </div>
-              <input type="search" placeholder="Pesquisar..." aria-describedby="button-addon2" class="form-control border-0 bg-light">
-            </div>
-        </div>
 
         <div class="lista">
             <div class="livro">
@@ -379,22 +377,22 @@
             <div class="livro">
                 <img src="/img/livro.png">
                 <img src="/img/star.png" id="star">
-                <p>Livro</p>
-                <p>Autor</p>
+                <p>Como eu era antes de você</p>
+                <p>Jojo Moyes</p>
             </div>
 
             <div class="livro">
                 <img src="/img/livro.png">
                 <img src="/img/star.png" id="star">
-                <p>Livro</p>
-                <p>Autor</p>
+                <p>Harry Potter e a Ordem da Fênix</p>
+                <p>J. K. Rowling</p>
             </div>
 
             <div class="livro">
                 <img src="/img/livro.png">
                 <img src="/img/star.png" id="star">
-                <p>Livro</p>
-                <p>Autor</p>
+                <p>Memórias de Sherlock Holmes</p>
+                <p>Sir Arthur Conan Doyle</p>
             </div>
         </div>
     </div>
